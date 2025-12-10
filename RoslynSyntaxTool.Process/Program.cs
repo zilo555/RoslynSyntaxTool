@@ -5,7 +5,7 @@ using System.Runtime.Versioning;
 using Microsoft.CodeAnalysis;
 using RoslynSyntaxTool.Process;
 
-[assembly: TargetFramework("net6.0", FrameworkDisplayName = "net6.0")]
+[assembly: TargetFramework("net9.0", FrameworkDisplayName = "net9.0")]
 [assembly: AssemblyTitle("RoslynSyntaxTool.Proxy.ConvertToCSharpProxy")]
 [assembly: AssemblyProduct("RoslynSyntaxTool.Proxy.ConvertToCSharpProxy")]
 [assembly: AssemblyCopyright("Copyright © MatoApp")]

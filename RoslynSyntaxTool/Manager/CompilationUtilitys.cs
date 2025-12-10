@@ -95,12 +95,12 @@ namespace Workshop.Manager
                                 SyntaxFactory.AttributeArgument(
                                     SyntaxFactory.LiteralExpression(
                                         SyntaxKind.StringLiteralExpression,
-                                        SyntaxFactory.Literal("net6.0"))),
+                                        SyntaxFactory.Literal("net9.0"))),
                                 SyntaxFactory.Token(SyntaxKind.CommaToken),
                                 SyntaxFactory.AttributeArgument(
                                     SyntaxFactory.LiteralExpression(
                                         SyntaxKind.StringLiteralExpression,
-                                        SyntaxFactory.Literal("net6.0")))
+                                        SyntaxFactory.Literal("net9.0")))
                                 .WithNameEquals(
                                     SyntaxFactory.NameEquals(
                                         SyntaxFactory.IdentifierName("FrameworkDisplayName")))})))))
